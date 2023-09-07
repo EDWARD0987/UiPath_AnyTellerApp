@@ -1,0 +1,173 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="902,2301" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="ANy_Teller_App" sap:VirtualizedContainerService.HintSize="546,2236" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: frmAnyTeller" sap:VirtualizedContainerService.HintSize="484,2125" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="8c55edb4-a8d1-4651-b93a-43534f814f34" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1834" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cash In'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8c55edb4-a8d1-4651-b93a-43534f814f34" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvType="InputBox" DesignTimeRectangle="331, 179, 112, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='txtDepositCashIn' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='txtDepositCashIn' /&gt;" Guid="2a1ad34f-3112-4264-9051-c4111385da67" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHQAAAAaCAYAAABmZHgNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAChSURBVGhD7dE7CgQhFETR2bs76P2Zagf+wEDowDfYwSTC5Bb3QmWVnU9rzZjOABXbD7TWaikldthCCHbf9w6ac7bneWzOyQ5a7/1F3UCX9jrQWY0xAFUKULEAFQtQsQAVC1CxABULULEAFQtQsQAVC1CxABULULEAFQtQsQAV6y+o9/5FZedsmcUYd9BSil3XZc45dtCW2bLbQJnGAJVasy8LT8nctAirbwAAAABJRU5ErkJggg==" InformativeScreenshot="c21a9187a13094cf46dc73e7e1251970.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='anytellerdemo.exe' ctrlname='frmAnyTeller' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArgument="Cash In" CvType="Text" DesignTimeRectangle="263, 182, 51, 16" ElementType="Text" FriendlyName="'Cash In'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label12' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label12' check:text='Cash In' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAAUCAYAAAAp46XeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFASURBVFhH7ZVREoQgCIY9FefhNhzGu3CWbsCC5UJlrU0PjTs9fDMFovwKmqZpkn/lFTcqr7hRORXHmQQhSUoGCGAWboy7ThbU+YhbvkjvuDbH4jIWQZR5sbFkVJEqcDf2Mo+KYyE9McwbO5PAjcWcJ8UVESi55YvoOC9bBXCVCOvpQ/Vpkr5ZS9JU/eqjWiGRKK43xmmLKyX5S5wtZqfrCzBBiDO/fi9iWZNKQEvPzrFW4uW/bEJrva24nhjnhrgGqxOfkwHSZHZlFZNu/bfsvTHOzbLMQqi3aCmTSohTP4KdptljGfUmGu29Mc6NC8Umn8vy+zycbMrcf1cTjfbeGOdAnFJKU4MPn4Lt5OqPPWdCvz1WxcWS7Uk02ntjnGNxyvoR1/7ZPOK72xDXTW6XyOlt+aS40XnFjcorbkwm+QCQ2igR4IGpjAAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Cash In'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="8c55edb4-a8d1-4651-b93a-43534f814f34" Text="100" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CvType="InputBox" DesignTimeRectangle="331, 179, 112, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='txtDepositCashIn' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='txtDepositCashIn' /&gt;" Guid="84c9b4c5-5deb-4489-a42c-4b1f7e1f6540" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHQAAAAaCAYAAABmZHgNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAChSURBVGhD7dE7CgQhFETR2bs76P2Zagf+wEDowDfYwSTC5Bb3QmWVnU9rzZjOABXbD7TWaikldthCCHbf9w6ac7bneWzOyQ5a7/1F3UCX9jrQWY0xAFUKULEAFQtQsQAVC1CxABULULEAFQtQsQAVC1CxABULULEAFQtQsQAV6y+o9/5FZedsmcUYd9BSil3XZc45dtCW2bLbQJnGAJVasy8LT8nctAirbwAAAABJRU5ErkJggg==" InformativeScreenshot="c21a9187a13094cf46dc73e7e1251970.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='anytellerdemo.exe' ctrlname='frmAnyTeller' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArgument="Cash In" CvType="Text" DesignTimeRectangle="263, 182, 51, 16" ElementType="Text" FriendlyName="'Cash In'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label12' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label12' check:text='Cash In' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAAUCAYAAAAp46XeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFASURBVFhH7ZVREoQgCIY9FefhNhzGu3CWbsCC5UJlrU0PjTs9fDMFovwKmqZpkn/lFTcqr7hRORXHmQQhSUoGCGAWboy7ThbU+YhbvkjvuDbH4jIWQZR5sbFkVJEqcDf2Mo+KYyE9McwbO5PAjcWcJ8UVESi55YvoOC9bBXCVCOvpQ/Vpkr5ZS9JU/eqjWiGRKK43xmmLKyX5S5wtZqfrCzBBiDO/fi9iWZNKQEvPzrFW4uW/bEJrva24nhjnhrgGqxOfkwHSZHZlFZNu/bfsvTHOzbLMQqi3aCmTSohTP4KdptljGfUmGu29Mc6NC8Umn8vy+zycbMrcf1cTjfbeGOdAnFJKU4MPn4Lt5OqPPWdCvz1WxcWS7Uk02ntjnGNxyvoR1/7ZPOK72xDXTW6XyOlt+aS40XnFjcorbkwm+QCQ2igR4IGpjAAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'On Us Check'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="8c55edb4-a8d1-4651-b93a-43534f814f34" Text="200" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CvType="InputBox" DesignTimeRectangle="331, 215, 112, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='txtDepositOnUSCheck' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='txtDepositOnUSCheck' /&gt;" Guid="a97021de-b49e-421b-8253-0c4e4df12df8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHQAAAAaCAYAAABmZHgNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAChSURBVGhD7dE7CgQhFETR2bs76P2Zagf+wEDowDfYwSTC5Bb3QmWVnU9rzZjOABXbD7TWaikldthCCHbf9w6ac7bneWzOyQ5a7/1F3UCX9jrQWY0xAFUKULEAFQtQsQAVC1CxABULULEAFQtQsQAVC1CxABULULEAFQtQsQAV6y+o9/5FZedsmcUYd9BSil3XZc45dtCW2bLbQJnGAJVasy8LT8nctAirbwAAAABJRU5ErkJggg==" InformativeScreenshot="fb3d393926cd6ceba38e31cd25691a82.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='anytellerdemo.exe' ctrlname='frmAnyTeller' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArgument="On Us Check" CvType="Text" DesignTimeRectangle="229, 218, 85, 16" ElementType="Text" FriendlyName="'On Us Check'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label11' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label11' check:text='On Us Check' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFkAAAAUCAYAAADmzZEdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH/SURBVFhH7VftkcQgCLUq67Ebi7EXa0kHHuDHoiu4u5d17mb88WaSgPh4AknMdV3p4Ls4Im/AEXkDjsgbcETeAF3kGJKzNhljCNa6FOLEbwmIY2zy07WaTUcMHvhlbgZiWBdSbPbP4+p4P64scvTJorC+Eo8peBT8E+JfEDm4zCXE8gz4ORAbhM73/0DknvD6uY67RY7JQwW7MDynwqix/rzIGGiSBIIqCMZG84MNvaOqx8pyvlYWh0ast0WIn2OVeDMOJGblIGHFDQ7KwYiBEYgjsR81ZT0bRa51zDNf6ihF9LnIXUVoNtwQSFSCJNAs+Z6YbMPrx9yPIJCxfkge0B20BJ0bdqRlokccha1Dc6e0tUKH0BrGV8INInO/8X71fLThdXkPTH0LXhZZ4jbhQ3nVmBN7Q7Y56IJVBVfcMy6miXAopLvk8B582xeNMH7GNVMo3Gg9xh/B7VJ8jAO+NGb6bpDwyxefkghbI76oEEpV5vn8RjwSp/pr3CSeFZqd2br9ZIgi19PWP+G0RHpM5xdVLasG3JPN4CyyUFF0OLDXy59w/X31bXshv7b3azO5rVt0lSwyYvkzoicyAl9kFsmXeAZij+OAfKodYk2rv6D/GQF+TLQ1NzyUR27Y/k+5tdjy1wU/kMfaHrrIB7fgiLwBR+QNOCJvwBH567jSDzqdbBRVZ11fAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" DisplayName="Type Into 'Not On Us Check'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="8c55edb4-a8d1-4651-b93a-43534f814f34" Text="300" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CvType="InputBox" DesignTimeRectangle="331, 250, 112, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='txtDepositNotOnUSCheck' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='txtDepositNotOnUSCheck' /&gt;" Guid="08ddc205-305e-4f55-92de-f4790621fb81" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHQAAAAaCAYAAABmZHgNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAChSURBVGhD7dE7CgQhFETR2bs76P2Zagf+wEDowDfYwSTC5Bb3QmWVnU9rzZjOABXbD7TWaikldthCCHbf9w6ac7bneWzOyQ5a7/1F3UCX9jrQWY0xAFUKULEAFQtQsQAVC1CxABULULEAFQtQsQAVC1CxABULULEAFQtQsQAV6y+o9/5FZedsmcUYd9BSil3XZc45dtCW2bLbQJnGAJVasy8LT8nctAirbwAAAABJRU5ErkJggg==" InformativeScreenshot="50e35fa4c5fa43e8bdc8253de8447f02.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='anytellerdemo.exe' ctrlname='frmAnyTeller' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArgument="Not On Us Check" CvType="Text" DesignTimeRectangle="205, 253, 109, 16" ElementType="Text" FriendlyName="'Not On Us Check'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label10' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label10' check:text='Not On Us Check' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHEAAAAUCAYAAAC6R9I5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVGhD7VfbscUgCExV1mM3FpNerCUdeMFXQIVo5v6cjB87c47oiiygOa7rChu/jS3iB7BF/AC2iB/AFvEDEEQ8gz2OcNhTsJngfDv+Ah64jAkH7gUwxobzFa/m03t//enAv+TbARwG4uGr/R/jwLDOq4sIsOfINruJMte7YFA4VwLjw+lQ0DeB0XxaD0rEaZMvp89j4J+lif2S9xHrvIqIQOTwIFAdI9vUJvJcHpDncR2aT+tBQcEcVGCXwDHxCtcb3hms8+oiAlEf1HYTOLAlLdG6WlkYiNKKuFPIMapyQKyAkjh5L0gmrFrksa5UBoV2cG7zwJ+4Mt/IhyhWm7wtnnxLccErAq8M3orzehIfWyu+97ePH8ejiOk3DTjfpIhcW+JMy2EZrdnS3pU/CjAKrrBPZ8Pf973rsdOYknQELJEk6L5hHAwR1eNVUeOSE7ysFSo8riH+SpgQEcAO1QaFzEOwLB7Y65zBeGdr1wt84nhrw9/5Hh7OzZgWUfJt4M9MXIjNxu4mzeGYExEQKyxmLbExxwroWslZHF9op3W9xjcaB7Q+shex0J6H52qh+BbXI38Lapf4kQfmxjbMq1nCtIiF3Dh4dlfbYB5zcMST0N+1o/F2vcQnPEQQSlWl+3GBL56tzNd8k8/dz1VsbD8ZCyICaobdthL0pTsRkbn0T4x2vcw3vD9i1ZFsxj3JHZhEFCoiig97TX9i8P88Ltm/uvfcnVjXiVWbsCYiIJFSW3qFlZZxv06LLY2PX4EYZLK2+9jXA9UCHyoGg5P5DuBu22WcU+zANfQrg3/s49luUZ59Q9Hvs2F77M5WueXXKRX8XsshiLjxS9gifgBbxA9gi/gBbBF/Hlf4AzdF3aYK2vVZAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Not On Us Check'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8c55edb4-a8d1-4651-b93a-43534f814f34" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvTextArgument="Not On Us Check" CvType="Text" DesignTimeRectangle="205, 253, 109, 16" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Not On Us Check'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label10' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label10' check:text='Not On Us Check' /&gt;" Guid="c9b31a31-0ce8-40fa-816b-cdf2c4584957" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHEAAAAUCAYAAAC6R9I5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVGhD7VfbscUgCExV1mM3FpNerCUdeMFXQIVo5v6cjB87c47oiiygOa7rChu/jS3iB7BF/AC2iB/AFvEDEEQ8gz2OcNhTsJngfDv+Ah64jAkH7gUwxobzFa/m03t//enAv+TbARwG4uGr/R/jwLDOq4sIsOfINruJMte7YFA4VwLjw+lQ0DeB0XxaD0rEaZMvp89j4J+lif2S9xHrvIqIQOTwIFAdI9vUJvJcHpDncR2aT+tBQcEcVGCXwDHxCtcb3hms8+oiAlEf1HYTOLAlLdG6WlkYiNKKuFPIMapyQKyAkjh5L0gmrFrksa5UBoV2cG7zwJ+4Mt/IhyhWm7wtnnxLccErAq8M3orzehIfWyu+97ePH8ejiOk3DTjfpIhcW+JMy2EZrdnS3pU/CjAKrrBPZ8Pf973rsdOYknQELJEk6L5hHAwR1eNVUeOSE7ysFSo8riH+SpgQEcAO1QaFzEOwLB7Y65zBeGdr1wt84nhrw9/5Hh7OzZgWUfJt4M9MXIjNxu4mzeGYExEQKyxmLbExxwroWslZHF9op3W9xjcaB7Q+shex0J6H52qh+BbXI38Lapf4kQfmxjbMq1nCtIiF3Dh4dlfbYB5zcMST0N+1o/F2vcQnPEQQSlWl+3GBL56tzNd8k8/dz1VsbD8ZCyICaobdthL0pTsRkbn0T4x2vcw3vD9i1ZFsxj3JHZhEFCoiig97TX9i8P88Ltm/uvfcnVjXiVWbsCYiIJFSW3qFlZZxv06LLY2PX4EYZLK2+9jXA9UCHyoGg5P5DuBu22WcU+zANfQrg3/s49luUZ59Q9Hvs2F77M5WueXXKRX8XsshiLjxS9gifgBbxA9gi/gBbBF/Hlf4AzdF3aYK2vVZAAAAAElFTkSuQmCC" InformativeScreenshot="a264fce562aa81c0932a39bcd9741fa7.png" ScopeSelectorArgument="&lt;wnd app='anytellerdemo.exe' ctrlname='frmAnyTeller' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Not On Us Check'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8c55edb4-a8d1-4651-b93a-43534f814f34" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvTextArgument="Not On Us Check" CvType="Text" DesignTimeRectangle="205, 253, 109, 16" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Not On Us Check'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label10' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label10' check:text='Not On Us Check' /&gt;" Guid="5db37c5a-ce54-4cd3-9779-5d74629d4724" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHEAAAAUCAYAAAC6R9I5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVGhD7VfbscUgCExV1mM3FpNerCUdeMFXQIVo5v6cjB87c47oiiygOa7rChu/jS3iB7BF/AC2iB/AFvEDEEQ8gz2OcNhTsJngfDv+Ah64jAkH7gUwxobzFa/m03t//enAv+TbARwG4uGr/R/jwLDOq4sIsOfINruJMte7YFA4VwLjw+lQ0DeB0XxaD0rEaZMvp89j4J+lif2S9xHrvIqIQOTwIFAdI9vUJvJcHpDncR2aT+tBQcEcVGCXwDHxCtcb3hms8+oiAlEf1HYTOLAlLdG6WlkYiNKKuFPIMapyQKyAkjh5L0gmrFrksa5UBoV2cG7zwJ+4Mt/IhyhWm7wtnnxLccErAq8M3orzehIfWyu+97ePH8ejiOk3DTjfpIhcW+JMy2EZrdnS3pU/CjAKrrBPZ8Pf973rsdOYknQELJEk6L5hHAwR1eNVUeOSE7ysFSo8riH+SpgQEcAO1QaFzEOwLB7Y65zBeGdr1wt84nhrw9/5Hh7OzZgWUfJt4M9MXIjNxu4mzeGYExEQKyxmLbExxwroWslZHF9op3W9xjcaB7Q+shex0J6H52qh+BbXI38Lapf4kQfmxjbMq1nCtIiF3Dh4dlfbYB5zcMST0N+1o/F2vcQnPEQQSlWl+3GBL56tzNd8k8/dz1VsbD8ZCyICaobdthL0pTsRkbn0T4x2vcw3vD9i1ZFsxj3JHZhEFCoiig97TX9i8P88Ltm/uvfcnVjXiVWbsCYiIJFSW3qFlZZxv06LLY2PX4EYZLK2+9jXA9UCHyoGg5P5DuBu22WcU+zANfQrg3/s49luUZ59Q9Hvs2F77M5WueXXKRX8XsshiLjxS9gifgBbxA9gi/gBbBF/Hlf4AzdF3aYK2vVZAAAAAElFTkSuQmCC" InformativeScreenshot="a264fce562aa81c0932a39bcd9741fa7.png" ScopeSelectorArgument="&lt;wnd app='anytellerdemo.exe' ctrlname='frmAnyTeller' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Transaction #'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8c55edb4-a8d1-4651-b93a-43534f814f34" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvTextArgument="Transaction #:" CvType="Text" DesignTimeRectangle="452, 137, 91, 16" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Transaction #'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label6' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='Label6' check:text='Transaction #:' /&gt;" Guid="e5366495-7496-4752-b0f2-c37ebbcbf1b8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF8AAAAUCAYAAADr0+FaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHbSURBVFhH7ZbblcUgCEVTlfXQjcXYi7WkAwcEE+JrnJvkOh9+7LV8gXBUkm3f97CYwxJ/Ikv8iSzxJ7LEn0hDfBdg28JWxQTrazb/Hcrpndi9NcFYj20frBnfY+Dmvxf0+3wndgdbAEdt2g+Cq6ypscS/jbrt3gZjbPDVdSU3xOdxAIOlSE4bNwejSpQBZSd+LAQj5QviU+V579K4zMWbJHT9Euj7mCfbVALOMevzPHA+xs5rDGjR+rEeYMzJ/gIdAB3EL6/gpvgY9BEU9zlxXkO18DgYmd/AcZJRbD2HbdnDY9IxAWXX9isiJ78x6RQv2dbaXCoOG/SR+rxHL9YMOgCxO2t/ZV2F2ze/HFdcTj9fr/ucrLGYbM9foutXk+9RawvDsV7Rgp+1f4xnxcenTU/5LB/EYEJUFrB2sk32zHt+u89b76HaVZvG2mIuocvaldEDeFB86nN54KeMfHqb4jNPc3/1q9FzrbbwUazqYxvXtC5BnYfF132so0XNb6ynxNVfAovfssv9vlXz9Z55X49LHKr2j/Jo2Sn+WKAn4rVPH9nW307fr/gq/nZonP5oeBxcvj/NpTLX+NtpxHqgLk3xsb28pDoD4i/eYok/kSX+RJb4E1niT2MPP9RxA6AoTcndAAAAAElFTkSuQmCC" InformativeScreenshot="007a27f817fef96d63276523746355f1.png" ScopeSelectorArgument="&lt;wnd app='anytellerdemo.exe' ctrlname='frmAnyTeller' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Accept'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8c55edb4-a8d1-4651-b93a-43534f814f34" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvElementArea="429, 506, 94, 35" CvTextArea="453, 516, 46, 16" CvTextArgument="Accept" CvType="Button" DesignTimeRectangle="430, 506, 93, 35" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Accept'" FullSelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='btnDepositAccept' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='pnlMain' /&gt;&lt;wnd ctrlname='grpDeposit' /&gt;&lt;wnd ctrlname='btnDepositAccept' check:text='Accept' /&gt;" Guid="ae30d2b1-7db8-4675-8db8-71e6f90dfea8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGEAAAAnCAYAAAAfBybSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJxSURBVGhD7ZqxTsMwEIb9Bn2XSJU68AZ9gy5ZusFQiYWpMDFVYmOD7N2AjQHUB6hAFeqCkGApIAHqhpiOOyeO7MS4Ajm1RW/4lCZ3dtL/99mJZLFcLoEJC5sQAWxCBNRMmD29w9bxPbQO5iD27hiPdE8epL5VzQ0TKIHEH1w8w+z5Ex4/vhhPkJ7Dy1do7c9rRhgmdE8fZKKtE8YPg4uFnGl03Q0TqGS4AppltviU1WDobpygCbaGjF9IZ0N344RNWAtsQgSwCRHAJkQAmxABbEIERGPC5LADQgjoje3x/0wkJsxh2O5AL0Uj0jNLPARn0BMdGE5tMb/EYcJ0BEl7BBM6ij5ktpy1s2EmZKmA5HCOv6ki1G89BwXB6zRdCRSmN9bjrhj2h9WVtPuYg0essonejvLTPhpftMe8TIqeP4fqs2kjIjChMuLGfRQDq6KMF4IoAWW1qHxXTDc3P5frTjnd0X1J+FEpfEbx8t6V52qQ8CbURK/+eZcYv4wZ052trX7N1bdfgptAozUv+wpqxLrWiZUxS79OkTfShB/+KFWHc8Qq/hojbHH92qr2/ghqgpyjjalIQQKYi/Vf14Qyhpj3U/dQcVwTKH+z1oRcwPqbUE5NMBK7mE5+83aU0beHjCHl20/RDvMTLZ6k+oDA5yumyqY/IINWQljWN9JXwSawCSFhExgNNiEC2IQIYBMigE2IAKcJtA+Vd+A1C+3Ac5pAeyRpr6StMeOH4eWL3J2t626YMHt6k9VAm4K5IvxCeg7OF/lsgzrruhsmEJTQPb4FsXMNYvuK8URrdwJbRzc1A4iaCcz6YRMigE0IzhK+AfZzOmm6rpuEAAAAAElFTkSuQmCC" InformativeScreenshot="838e0b37ad51aa653b6e3a16cca41d78.png" ScopeSelectorArgument="&lt;wnd app='anytellerdemo.exe' ctrlname='frmAnyTeller' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="104, 104, 618, 622" FilePath="C:\Users\Edward Doku\OneDrive\Documents\TrainingRPA\Applications\AnyTellerDemo.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO/SURBVFhH5ZbvS1NRHMZ96zvfFZQRYb/tBxWtrFgQiUXqkqwI2dD8NWulhqVLmaSzZri2wsw0s0WL1lAzCZVKA0MpzaTsjRHRm+iv+Nbzded6dr3XbLbe9MDDvTv37j6fc873nHtj/kSlz+tpn/8kbWw+TK7hOxRqjq7sAx5a25xGyxuTw/xPALSChaMKkN1TqRkqO2oApuAZzUC1owIwn55vbcukLH9ZdHqvFSic8cBGtffdlFdqpTUb1lFsbCwg+BgfH08mk2lhUHoFt6IxhaqDbko9ms6BwnFxcQyCcKk9MtkHvZrhcG3QS0uWLVVCKxsc5HjUEHmYlvR6X/rESasT13J44pZNDCPurX/Z8vcg1MEwiu2cs0LpOcIxHZlNRZReeIwMxp1kNBoXDoHtVQsAvUfwr1sYBNvvEW+hMvf4r9Vq5SI0GAyRg6R05GkCVNyu4XC4qt1Fu1pP0Lak7Uq4SpED6M3/eVcVh6PHGA30Hr/5TyolJSXpgf1eaYHTpOViB282/GB7r5tyPCW6AJiK0HT9udb7Umnl3ZQwr24/SEUXz3Igqv/E4xLKrMnVBbBYLJEDGAPmWQCwegoKfOW6AAkJCXTg0IHIAMy95ZoAchHiPnyI7E3fr9dTagm2Ku2j38dp8Ntr6v7SQ/7JoK75ZvdYuybApW6PCFeWYVpTPm3asYXbUHjoOc4xWtdHb3Jgy8e26QdraPzHh2mwqd4ZAEgO3uw7TBldNrJ0ltPxvCwOQK+dAS8XZ/KdXK6HrIo8yqzMJmdXA2X051LwcyeVDdn5oTi/OOyg9sm7ujBhwl6AYkQwhlosRex+4q0nlhl2SFw7++IKrQqYyDHqZYCr72+S+52XbK9KldBbE00Mcmm4mgFDzdpC70SwMPYIXJNfvVie2JjQjuLE8WqHl2oap89PDxRT4YCNz4Vcby6Tfaic7R5r4KkKXZqR3HPZmHtcx3L8dQizAJPMyn95imA5qP9rH4+GAIFDl2aEl40aAG0YnYLHVVTdVk85xQW8JS9avIiNqcG3Al7TN3pv80Nr37oYAFYX5b1PPgUk1BQuNQDCZTDUAL6OcK+tr47Mz+x0bayV6yC9L5trAdcwDQICtYE2WZiK0OlsyWF77puVcNmiCGH7G48CgCOegaITALBjhPeV+QsFONcXshoA4cLuiWYOw1DLEGKZzlsYYq1wWAawDtXS8edWBUCMAiQDwPIynbcAon5tywC7n+bQhZE6zVFA0akh1Mt0Qbr+8WHYw/xTc284mnvAf6yYmJ8l1w6ngw3B7gAAAABJRU5ErkJggg==" InformativeScreenshot="334f61d51c81c425e894b4d4221b1264.png" Selector="&lt;wnd app='anytellerdemo.exe' ctrlname='frmAnyTeller' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
